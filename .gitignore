@@ -1,0 +1,11 @@
+# lock files and redundant subdirectories.
+
+/.nyc_output
+/dist
+/tmp
+/yarn.lock
+node_modules
+package-lock.json
+
+# ENV file
+.env 

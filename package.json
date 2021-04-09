@@ -1,0 +1,35 @@
+{
+  "name": "crypto-cli",
+  "version": "1.0.1",
+  "description": "A Crypto CLI tool for checking Crypto prices in INR, USD and more.",
+  "main": "index.js",
+  "bin": "./bin/crypto.js",
+  "scripts": { 
+    "cryptostart": "node ./bin/crypto.js",
+    "cryptostart2": "node crypto.js"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashchouhan16/Crypto-Dash"
+  },
+  "keywords": [
+    "Nodejs",
+    "CLI",
+    "Crypto-CLI",
+    "crypto-cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/akashchouhan16/Crypto-Dash/issues"
+  },
+  "homepage": "https://github.com/akashchouhan16/Crypto-Dash/blob/main/README.md",
+  "author": "Akash Chouhan <akash.c1500@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "configstore": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.1.0"
+  }
+}
