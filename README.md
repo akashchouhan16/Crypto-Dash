@@ -13,14 +13,12 @@ A **Command line tool** for fetching Cryptocurrency prices in [INR,USD,EUR](http
   ```sh-session
       npm install
   ```
-  OR
-  ```
-      npm i --save
-  ```
 - **Navigate to `/bin` sub-directory and run**
   ```sh-session
       node crypto.js
   ```
+
+---
 
 ## CLI Parameters
 
@@ -91,10 +89,10 @@ Options:
 
 ## Application Info
 
-## Version
+### Version
 
 [1.0.1](https://github.com/akashchouhan16/Crypto-Dash "Version")
 
-## License
+### License
 
 [MIT](./LICENSE "View LICENSE")
