@@ -1,3 +1,5 @@
+<img src="./assets/crypto.svg" width="110px" style="margin-left:10px">
+
 # Crypto-Dash
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity "Repo Maintained")
