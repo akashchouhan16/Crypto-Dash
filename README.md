@@ -6,7 +6,7 @@
 
 A Nodejs **Command line tool** using the [Nomics API](https://nomics.com "View API Site") to fetch Cryptocurrency prices in [INR,USD,EUR](https://github.com/akashchouhan16, "currency options").
 
-## How to run the application.
+## How to run the application
 
 - **Install dependencies**
   ```
@@ -19,7 +19,7 @@ A Nodejs **Command line tool** using the [Nomics API](https://nomics.com "View A
 
 ---
 
-## CLI Parameters.
+## CLI Parameters
 
 ```
 Usage: crypto [options] [command]
@@ -72,6 +72,7 @@ help [command] display help for command
 <summary><strong>View Terminal</strong></summary>
 <br>
 <pre>
+
 Usage: crypto-check [options] [command]
 
 Options:
@@ -110,8 +111,6 @@ Options:
 ---
 
 ## [Application Info](https://github.com/akashchouhan16/Crypto-Dash "Code-along Project")
-
-<br>
 
 [![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://github.com/akashchouhan16/Crypto-Dash "© Akash Chouhan")
 

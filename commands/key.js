@@ -18,7 +18,7 @@ const key = {
     const key = keyManager.setKey(input.key);
 
     if (key) {
-      console.log('API Key is Set'.blue.bgGray);
+      console.log('API Key is Set'.bold.blue);
     }
   },
   show() {
@@ -26,11 +26,11 @@ const key = {
       const keyManager = new KeyManager();
       const key = keyManager.getKey();
 
-      console.log('Current API Key: ', key.yellow.bgGray);
+      console.log('Current API Key: ', key.bold.yellow.bgGray);
 
       return key;
     } catch (err) {
-      console.error(err.message.red.bgGray);
+      console.error(err.message.bold.red);
     }
   },
   remove() {
@@ -38,11 +38,11 @@ const key = {
       const keyManager = new KeyManager();
       keyManager.deleteKey();
 
-      console.log('Key Removed'.blue);
+      console.log('Key Removed'.bold.blue);
 
       return;
     } catch (err) {
-      console.error(err.message.red);
+      console.error(err.message.bold.red);
     }
   }
 };

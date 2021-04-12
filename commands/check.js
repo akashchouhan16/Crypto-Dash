@@ -7,7 +7,7 @@ const CryptoAPI = require('../lib/CryptoAPI');
 const check = {
   async price(cmd) {
     try {
-      keyManager = new KeyManager();
+      let keyManager = new KeyManager();
       const key = keyManager.getKey();
 
       const api = new CryptoAPI(key);
@@ -16,7 +16,7 @@ const check = {
 
       console.log(priceOutputData);
     } catch (err) {
-      console.error(err.message.red);
+      console.error(err.message.bold.red);
     }
   }
 };
