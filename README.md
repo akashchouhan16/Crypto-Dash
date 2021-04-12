@@ -3,26 +3,25 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity "Repo Maintained")
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/akashchouhan16/ "github.com/akashchouhan16")
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/ "VSCODE")
-[![GitHub issues](https://img.shields.io/github/issues/akashchouhan16/KeepNotes_API.svg)](https://GitHub.com/akashchouhan16/KeepNotes_API/issues/ "Open Issues Tab")
 
-A **Command line tool** for fetching Cryptocurrency prices in [INR,USD,EUR](https://github.com/akashchouhan16, "currency options") and more built using [Nomics API](https://nomics.com "View API Site").
+A Nodejs **Command line tool** using the [Nomics API](https://nomics.com "View API Site") to fetch Cryptocurrency prices in [INR,USD,EUR](https://github.com/akashchouhan16, "currency options").
 
-## How to run the application
+## How to run the application.
 
 - **Install dependencies**
-  ```sh-session
+  ```
       npm install
   ```
 - **Navigate to `/bin` sub-directory and run**
-  ```sh-session
+  ```
       node crypto.js
   ```
 
 ---
 
-## CLI Parameters
+## CLI Parameters.
 
-```sh-session
+```
 Usage: crypto [options] [command]
 
 Options:
@@ -35,59 +34,86 @@ Commands:
   help [command]  display help for command
 ```
 
-### Key Options
+## **Preview**
+
+## ![Preview](./assets/terminalOutput.gif)
+
+## How to Use it?
+
+### **Key Options**
 
 **CMD : `node crypto.js key -h`**
 
-```sh-session
+<details>
+<summary><strong>View Terminal</strong></summary>
+<br>
+<pre>
 
 Usage: crypto-key [options] [command]
 
 Options:
-  -h, --help      display help for command
+-h, --help display help for command
 
 Commands:
-  set             Set API Key -- Get at https://nomics.com
-  show            Show API Key
-  remove          Remove API Key
-  help [command]  display help for command
-```
+set Set API Key -- Get at https://nomics.com
+show Show API Key
+remove Remove API Key
+help [command] display help for command
 
-### Check Options
+</pre>
+</details>
+<br>
+
+### **Check Options**
 
 **CMD : `node crypto.js check -h`**
 
-```sh-session
-
+<details>
+<summary><strong>View Terminal</strong></summary>
+<br>
+<pre>
 Usage: crypto-check [options] [command]
 
 Options:
-  -h, --help       display help for command
+-h, --help display help for command
 
 Commands:
-  price [options]  Check price of coins
-  help [command]   display help for command
-```
+price [options] Check price of coins
+help [command] display help for command
 
-### Price & Currency Options
+</pre>
+</details>
+<br>
+
+### **Price & Currency Options**
 
 **CMD : `node crypto.js check price -h`**
 
-```sh-session
+<details>
+<summary><strong>View Terminal</strong></summary>
+<br>
+<pre>
 
 Usage: crypto-check price [options]
 
 Check price of coins
 
 Options:
-  --coin <type>     Add specific coin types in CSV format (default: "BTC,ETH,XRP")
-  --cur <currency>  Change the currency (default: "USD")
-  -h, --help        display help for command
-```
+--coin <type> Add specific coin types in CSV format (default: "BTC,ETH,XRP")
+--cur <currency> Change the currency (default: "USD")
+-h, --help display help for command
+
+</pre>
+</details>
+<br>
 
 ---
 
-## Application Info
+## [Application Info](https://github.com/akashchouhan16/Crypto-Dash "Code-along Project")
+
+<br>
+
+[![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://github.com/akashchouhan16/Crypto-Dash "© Akash Chouhan")
 
 ### Version
 
