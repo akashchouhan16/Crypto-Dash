@@ -5,6 +5,8 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity "Repo Maintained")
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/akashchouhan16/ "github.com/akashchouhan16")
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/ "VSCODE")
+[![GitHub issues](https://img.shields.io/github/issues/akashchouhan16/Crypto-Dash.svg)](https://github.com/akashchouhan16/Crypto-Dash/issues)
+[![GitHub forks](https://img.shields.io/github/forks/akashchouhan16/Crypto-Dash.svg?style=social)](https://github.com/akashchouhan16/Crypto-Dash/network) [![GitHub stars](https://img.shields.io/github/stars/akashchouhan16/Crypto-Dash.svg?style=social)](https://github.com/akashchouhan16/Crypto-Dash/stargazers) ![GitHub last commit](https://img.shields.io/github/last-commit/akashchouhan16/Crypto-Dash.svg)
 
 A Nodejs **Command line tool** using the [Nomics API](https://nomics.com "View API Site") to fetch Cryptocurrency prices in [INR,USD,EUR](https://github.com/akashchouhan16, "currency options").
 
@@ -36,9 +38,13 @@ Commands:
   help [command]  display help for command
 ```
 
+---
+
 ## **Preview**
 
 ## ![Preview](./assets/terminalOutput.gif)
+
+---
 
 ## How to Use it?
 
@@ -118,8 +124,8 @@ Options:
 
 ### Version
 
-[1.0.1](https://github.com/akashchouhan16/Crypto-Dash "Version")
+**[1.0.1](https://github.com/akashchouhan16/Crypto-Dash "Version")**
 
 ### License
 
-[MIT](./LICENSE "View LICENSE")
+**[MIT](./LICENSE "View LICENSE")**
