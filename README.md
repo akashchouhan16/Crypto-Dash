@@ -27,18 +27,7 @@ A Nodejs **Command line tool** using the [Nomics API](https://nomics.com "View A
 
 ## CLI Parameters
 
-```
-Usage: crypto [options] [command]
-
-Options:
-  -V, --version   output the version number
-  -h, --help      display help for command
-
-Commands:
-  key             Manage API Key -- https://nomics.com
-  check           Check Coin Price Info
-  help [command]  display help for command
-```
+<img src="./assets/Crypto Dash.svg" width="510px" style="margin-left:40px;">
 
 ---
 
